@@ -75,3 +75,4 @@ line 13–15: Create a session object and run the initializing variable which we
 line 20: “sess.run()” runs the computational graph (autoencoder) with the input data and target data what we give.
 line 19–20: New images are sent into the network in batches of 32.
 The training would take some time depending on your laptop configuration but this produces a good quality grayscale image of the input data after the network has run for 50 epochs.
+While training we had saved the model and now we are restoring it for testing purpose. The grayscale converted image are stored in “gen_gray_images” directory.
